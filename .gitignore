@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (keep raw out of git typically)
+data/raw/
+data/interim/
+data/processed/
+
+# Model artifacts
+models/artifacts/
+models/reports/
+
+# Reports output
+reports/figures/
+reports/metrics/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/

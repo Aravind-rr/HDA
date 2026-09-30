@@ -1,0 +1,44 @@
+{
+  "top_contributors": [
+    {
+      "feature": "total_visits",
+      "shap_value": 0.1156611811648837
+    },
+    {
+      "feature": "number_inpatient",
+      "shap_value": 0.11315762037531328
+    },
+    {
+      "feature": "number_diagnoses",
+      "shap_value": 0.06402352408909229
+    },
+    {
+      "feature": "diag_1_486",
+      "shap_value": 0.048696167187817406
+    },
+    {
+      "feature": "discharge_disposition_id",
+      "shap_value": -0.047210343998320636
+    },
+    {
+      "feature": "num_medications",
+      "shap_value": 0.04353809966368435
+    },
+    {
+      "feature": "time_in_hospital",
+      "shap_value": 0.043223982727433
+    },
+    {
+      "feature": "diag_1_491",
+      "shap_value": -0.043195563045173295
+    },
+    {
+      "feature": "diabetesMed_No",
+      "shap_value": 0.037007656458895866
+    },
+    {
+      "feature": "admission_source_id",
+      "shap_value": 0.03684356711464234
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "valid": {
+    "threshold": 0.005777310004305854,
+    "roc_auc": 0.6643845077692763,
+    "pr_auc": 0.2160233285204804,
+    "precision": 0.11162790697674418,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "confusion_matrix": {
+      "tn": 0,
+      "fp": 13561,
+      "fn": 0,
+      "tp": 1704
+    },
+    "classification_report": {
+      "0": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 13561.0
+      },
+      "1": {
+        "precision": 0.11162790697674418,
+        "recall": 1.0,
+        "f1-score": 0.200836820083682,
+        "support": 1704.0
+      },
+      "accuracy": 0.11162790697674418,
+      "macro avg": {
+        "precision": 0.05581395348837209,
+        "recall": 0.5,
+        "f1-score": 0.100418410041841,
+        "support": 15265.0
+      },
+      "weighted avg": {
+        "precision": 0.012460789616008652,
+        "recall": 0.11162790697674418,
+        "f1-score": 0.022418993869806364,
+        "support": 15265.0
+      }
+    }
+  },
+  "test": {
+    "threshold": 0.005777310004305854,
+    "roc_auc": 0.666708470472319,
+    "pr_auc": 0.22765638854501474,
+    "precision": 0.11162790697674418,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "confusion_matrix": {
+      "tn": 0,
+      "fp": 13561,
+      "fn": 0,
+      "tp": 1704
+    },
+    "classification_report": {
+      "0": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 13561.0
+      },
+      "1": {
+        "precision": 0.11162790697674418,
+        "recall": 1.0,
+        "f1-score": 0.200836820083682,
+        "support": 1704.0
+      },
+      "accuracy": 0.11162790697674418,
+      "macro avg": {
+        "precision": 0.05581395348837209,
+        "recall": 0.5,
+        "f1-score": 0.100418410041841,
+        "support": 15265.0
+      },
+      "weighted avg": {
+        "precision": 0.012460789616008652,
+        "recall": 0.11162790697674418,
+        "f1-score": 0.022418993869806364,
+        "support": 15265.0
+      }
+    }
+  }
+}

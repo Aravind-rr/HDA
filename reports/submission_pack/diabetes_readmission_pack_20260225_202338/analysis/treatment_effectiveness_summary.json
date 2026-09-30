@@ -1,0 +1,28 @@
+{
+  "readmission_rate_by_insulin_status": {
+    "Down": 0.139,
+    "Up": 0.1299,
+    "Steady": 0.1113,
+    "No": 0.1004
+  },
+  "readmission_rate_medication_changed": {
+    "no_change(0)": 0.10591007049713264,
+    "changed(1)": 0.1182326788487311
+  },
+  "readmission_rate_a1c_abnormal": {
+    "normal_or_missing(0)": 0.11325569733103026,
+    "abnormal(1)": 0.09926837379447954
+  },
+  "readmission_rate_by_prior_utilization": {
+    "0": 0.0818,
+    "1-2": 0.1259,
+    "3-5": 0.1639,
+    "6+": 0.2551
+  },
+  "readmission_rate_by_time_in_hospital": {
+    "1-2": 0.0914,
+    "3-4": 0.1117,
+    "5-7": 0.1241,
+    "8+": 0.1338
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "config": {
+    "SEED": 42,
+    "TARGET_COL": "readmitted",
+    "POSITIVE_CLASS": "<30",
+    "TEST_SIZE": 0.15,
+    "VALID_SIZE": 0.15,
+    "PRIMARY_METRICS": [
+      "recall",
+      "roc_auc"
+    ],
+    "DEFAULT_THRESHOLD": 0.5
+  },
+  "threshold": 0.005777310004305854,
+  "target_recall": 0.8,
+  "min_precision": 0.15,
+  "artifact": "lgbm_pipeline.joblib",
+  "model": "LightGBM"
+}

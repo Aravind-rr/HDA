@@ -1,0 +1,17 @@
+{
+  "config": {
+    "SEED": 42,
+    "TARGET_COL": "readmitted",
+    "POSITIVE_CLASS": "<30",
+    "TEST_SIZE": 0.15,
+    "VALID_SIZE": 0.15,
+    "PRIMARY_METRICS": [
+      "recall",
+      "roc_auc"
+    ],
+    "DEFAULT_THRESHOLD": 0.5
+  },
+  "threshold": 0.00739654569319013,
+  "target_recall": 0.8,
+  "artifact": "baseline_logreg_pipeline.joblib"
+}

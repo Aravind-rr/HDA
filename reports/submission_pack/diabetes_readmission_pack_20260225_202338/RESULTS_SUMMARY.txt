@@ -1,0 +1,35 @@
+Diabetes 30-Day Readmission Predictive Analytics — Results Summary
+======================================================================
+Generated: 2026-02-25T20:23:39
+
+LightGBM (Test Set):
+  ROC-AUC:     0.666708470472319
+  PR-AUC:      0.22765638854501474
+  Recall:      1.0
+  Precision:   0.11162790697674418
+  Specificity: 0.0
+  Confusion Matrix: {'tn': 0, 'fp': 13561, 'fn': 0, 'tp': 1704}
+
+Baseline Logistic Regression (Test Set):
+  ROC-AUC:     0.6413020128489146
+  PR-AUC:      0.20751226337780057
+  Recall:      1.0
+  Precision:   0.11163522012578617
+  Specificity: 7.374087456677236e-05
+  Confusion Matrix: {'tn': 1, 'fp': 13560, 'fn': 0, 'tp': 1704}
+
+Interpretability Artifacts:
+  - figures/shap_summary.png (global SHAP feature importance)
+  - analysis/local_explanation_example.json (local explanation example)
+
+Treatment Effectiveness Artifacts:
+  - analysis/treatment_effectiveness_summary.json (grouped readmission rates)
+
+Sample Prediction Outputs:
+  - sample_outputs/sample_input.csv
+  - sample_outputs/sample_batch_predictions.csv
+  - sample_outputs/sample_single_prediction.json
+
+Notes:
+  - Model emphasizes recall due to healthcare risk sensitivity (avoid false negatives).
+  - Operating threshold tuned using validation set.
